@@ -4,6 +4,9 @@ chapter: false
 weight: 20
 ---
 
+
+![dyanmodb](/images/ddb.png)
+
 [**Amazon DynamoDB**](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. DynamoDB lets you offload the administrative burdens of operating and scaling a distributed database so that you don't have to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling. 
 
 With Amazon DynamoDB, you can create database [**tables**](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.Basics.html) that can store and retrieve any amount of data and serve any level of request traffic.

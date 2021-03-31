@@ -24,7 +24,7 @@ The following diagram shows a high-level overview of how AWS Cloud9 works.
 
 ...and today you will use it to deploy and test your API!
 
-Connect to Cloud9 brwosing to [** Cloud9 **](https://console.aws.amazon.com/cloud9) 
+Connect to Cloud9 brwosing to [**Cloud9**](https://console.aws.amazon.com/cloud9) 
 
 In the console anter making sure you are in the right Region (top right) search for the button **Create environment** 
 

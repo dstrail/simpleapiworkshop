@@ -3,6 +3,9 @@ title: "Create an http API"
 chapter: false
 weight: 40
 ---
+![HTTP API gateway](/images/http-api-client.png)
+HTTP APIs enable you to create RESTful APIs with lower latency and lower cost than REST APIs.
+You can use HTTP APIs to send requests to AWS Lambda functions or to any publicly routable HTTP endpoint. 
 
 The HTTP API provides an HTTP endpoint for your Lambda function. In this step, you create an empty API. In the following steps, you configure routes and integrations to connect your API and your Lambda function. 
 
