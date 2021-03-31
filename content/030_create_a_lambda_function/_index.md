@@ -13,10 +13,10 @@ You create a Lambda function for the backend of your API. This Lambda function *
 ##### To create a Lambda function:
 1. Sign in to the Lambda console at [https://console.aws.amazon.com/lambda](https://console.aws.amazon.com/lambda)
 2. Choose Create function.
-3. For Function name, enter http-crud-tutorial-function.
-4. Under Permissions choose Change default execution role.
-5. Select Create a new role from AWS policy templates.
-6. For Role name, enter http-crud-tutorial-role.
+3. For Function name, enter `http-crud-tutorial-function`
+4. Under Permissions choose Change default execution role
+5. Select Create a new role from AWS policy templates
+6. For Role name, enter `http-crud-tutorial-role`
 7. For Policy templates, choose Simple microservice permissions. This policy grants the Lambda function permission to interact with DynamoDB. 
 
 
