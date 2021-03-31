@@ -12,7 +12,7 @@ The HTTP API provides an HTTP endpoint for your Lambda function. In this step, y
 ![Create API](/images/create-API.png) 
 3. For HTTP API choose Build 
 ![HTTP API](/images/http-api.png)
-4. For API name, enter http-crud-tutorial-api.
+4. For API name, enter `http-crud-tutorial-api`
 ![api name](/images/api-name.png)
 5. Choose Next.
 6. For **Configure routes**, choose Next to skip route creation. You create routes later.

@@ -4,7 +4,9 @@ chapter: false
 weight: 30
 ---
 
-You create a [**Lambda**](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) function for the backend of your API. This Lambda function creates, reads, updates, and deletes items from DynamoDB. The function uses [**events from API Gateway**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html#http-api-develop-integrations-lambda.proxy-format) to determine how to interact with DynamoDB. For simplicity this tutorial uses a single Lambda function. As a best practice, you should create separate functions for each route. 
+[**AWS Lambda**](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)  is a compute service that lets you run code without provisioning or managing servers. Lambda runs your code only when needed and scales automatically, from a few requests per day to thousands per second.
+
+You create a Lambda function for the backend of your API. This Lambda function **c**reates, **r**eads, **u**pdates, and **d**eletes (**CRUD**) items from DynamoDB. The function uses [**events from API Gateway**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html#http-api-develop-integrations-lambda.proxy-format) to determine how to interact with DynamoDB. For simplicity this tutorial uses a single Lambda function. As a best practice, you should create separate functions for each route. 
 
 
 
