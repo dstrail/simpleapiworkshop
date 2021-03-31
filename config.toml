@@ -1,0 +1,7 @@
+baseURL = "http://simpleapiworkshop.awsdemo.today/"
+languageCode = "en-us"
+title = "Build your API in 45 minutes or less!"
+theme = "learn"
+uglyurls = false
+sectionPagesMenu = "main"
+relativeURLs = true
