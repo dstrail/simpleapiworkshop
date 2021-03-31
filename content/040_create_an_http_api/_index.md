@@ -8,9 +8,9 @@ The HTTP API provides an HTTP endpoint for your Lambda function. In this step, y
 
 ##### To create an HTTP API:
 1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
-2. Choose Create API, and then for HTTP API
+2. Choose Create API
 ![Create API](/images/create-API.png) 
-3. Choose Build 
+3. For HTTP API choose Build 
 ![HTTP API](/images/http-api.png)
 4. For API name, enter http-crud-tutorial-api.
 ![api name](/images/api-name.png)
