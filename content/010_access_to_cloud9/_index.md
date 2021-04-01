@@ -59,7 +59,7 @@ Few more configuration steps then we can start:
 
 ![** click the x **](/images/cloud-9-open-new-terminal.png)
 
-Your **teminal** in Cloud9 is **ready**! 
+Your **terminal** in Cloud9 is **ready**! 
 
 You will test your API from here:
 ![** Cloud9 terminal **](/images/cloud-9-terminal.png)
