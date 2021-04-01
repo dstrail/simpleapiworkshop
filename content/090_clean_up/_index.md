@@ -14,21 +14,21 @@ If this is an event organized by AWS, you don't need to follow the steps below. 
 
 ## To delete an DynamoDB table:
 
-1. Open the DynamoDB console at https://console.aws.amazon.com/dynamodb/
+1. Open the DynamoDB console at [https://console.aws.amazon.com/dynamodb/](https://console.aws.amazon.com/dynamodb/)
 2. Select your table.
 3. Choose Delete table.
 4. Confirm your choice, and choose Delete.
 
 ## To delete an HTTP API:
 
-1. Sign in to the API Gateway console at https://console.aws.amazon.com/apigateway
+1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
 2. On the APIs page, select an API. Choose Actions, and then choose Delete.
 3. Choose Delete.
 
 
 ## To delete a Lambda function:
 
-1. Sign in to the Lambda console at https://console.aws.amazon.com/lambda
+1. Sign in to the Lambda console at [https://console.aws.amazon.com/lambda/](https://console.aws.amazon.com/lambda/)
 2. On the Functions page, select a function. Choose Actions, and then choose Delete.
 3. Choose Delete.
 
@@ -45,3 +45,9 @@ If this is an event organized by AWS, you don't need to follow the steps below. 
 3. Choose Delete role.
 4. Choose Yes, delete.
 
+## To delete the Coud9 IDE:
+
+1. Sign in to the Cloud9 console at [https://console.aws.amazon.com/cloud9/](https://console.aws.amazon.com/cloud9/)
+2. In the Your environments page, an IDE. Choose Delete.
+3. To confirm your choice type `Delete`. 
+4. Choose Delete.
