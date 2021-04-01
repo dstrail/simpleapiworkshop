@@ -25,7 +25,7 @@ The full URL looks like this: https://**abcdef123**.execute-api.eu-west-1.amazon
 
 ```bash
 #Replace URL
-set INVOKE_URL="https://**abcdef123**.execute-api.eu-west-1.amazonaws.com"
+export INVOKE_URL="https://**abcdef123**.execute-api.eu-west-1.amazonaws.com"
 ```
 
 4. Create or update an item. The command includes a request body with the item's ID, price, and name. 

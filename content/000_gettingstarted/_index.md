@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-Your goal in this workshop is to build a very simple CRUD API (your first API?). To accomplish this you will be guided through a few steps. Sterting with creating a DynamoDB table using the DynamoDB console, to creating a Lambda function in the AWS Lambda console. Next you will configure an HTTP API using the API Gateway console and last, after launching an AWS Cloud9 IDE you will use it to test your API!
+Your goal in this workshop is to build a very simple CRUD API (your first API?). To accomplish this you will be guided through a few steps. Starting with creating a DynamoDB table using the DynamoDB console, to creating a Lambda function in the AWS Lambda console. Next you will configure an HTTP API using the API Gateway console and last, after launching an AWS Cloud9 IDE you will use it to test your API!
 
 If you have little experience with AWS but know your way around at typing commands in a terminal, this workshop is for you! (Copy/Paste allowed!) 
 
