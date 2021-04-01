@@ -14,7 +14,8 @@ weight: 50
 **PUT** `/items`
 
 **DELETE** `/items/{id}`
-##### To create routes:
+
+## Create routes:
 1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
 2. Choose your API (http-crud-tutorial-api)
 3. On the left panel choose Routes 

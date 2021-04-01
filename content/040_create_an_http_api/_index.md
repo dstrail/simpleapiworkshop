@@ -9,7 +9,7 @@ You can use HTTP APIs to send requests to AWS Lambda functions or to any publicl
 
 The HTTP API provides an HTTP endpoint for your Lambda function. In this step, you create an empty API. In the following steps, you configure routes and integrations to connect your API and your Lambda function. 
 
-##### To create an HTTP API:
+## Create an HTTP API:
 1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
 2. Choose Create API
 ![Create API](/images/create-API.png) 

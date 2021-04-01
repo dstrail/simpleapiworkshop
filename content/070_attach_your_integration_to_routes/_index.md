@@ -8,7 +8,7 @@ weight: 70
 
 For this example API, you use the same [**AWS Lambda integration**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html) for all routes. After you attach the integration to all of the API's routes, your Lambda function is invoked when a client calls any of your routes.
 
-##### To attach integrations to routes
+## To attach integrations to routes
 
 1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
 2. Choose your API (**http-crud-tutorial-api**)

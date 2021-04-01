@@ -4,7 +4,7 @@ chapter = false
 weight = 79
 +++
 
-#### What is AWS Cloud9?
+## What is AWS Cloud9?
 
 AWS Cloud9 is an integrated development environment, or IDE.
 
@@ -24,38 +24,38 @@ The following diagram shows a high-level overview of how AWS Cloud9 works.
 
 ...and today you will use it to deploy and test your API!
 
-Connect to Cloud9 brwosing to [**Cloud9**](https://console.aws.amazon.com/cloud9) 
+Connect to Cloud9 by browsing to [**Cloud9**](https://console.aws.amazon.com/cloud9) 
 
-In the console anter making sure you are in the right Region (top right) search for the button **Create environment** 
+In the console make sure you are in the right Region (top right) and search for the button **Create environment**.
 
 ![**Click on the button create environment **](/images/cloud-9-create-environment.png)
 
 Next: 
 
-1. give a name to your instance
+1. Give a name to your instance
 
 ```bash 
     api-workshop
 ```
-2. configure the options of your Cloud9 instance
+2. Configure the options of your Cloud9 instance
 
 ![** choose your options **](/images/cloud-9-configure-settings.png)
 
-3. review the options and Create!
+3. Review the options and Create!
 
 After a few minutes...
 
 ![** cloud9 logo will show up **](/images/creating-cloud-9.png)
 
-...your Cloud 9 environment!
+...your Cloud 9 environment is created!
 
 
-Few more configuration steps then we can start:
+There are a few more configuration steps then we can start:
 
-1. close the Welcome Screen
+1. Close the Welcome Screen
 ![** close the welcome screen **](/images/cloud-9-close-welcome-screen.png)
 
-2. prepare a terminal in full screen
+2. Prepare a terminal in full screen
 
 ![** click the x **](/images/cloud-9-open-new-terminal.png)
 

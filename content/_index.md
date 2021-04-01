@@ -4,9 +4,9 @@ chapter: false
 weight: 1
 ---
 
-In this workshop you will create an API that creates, reads updates and deletes from a DynamoDB table. The API will run serverless, so there is no management of the underlying infrastructure and scaling is done automatically. 
+In this workshop we will create an API that creates, reads updates and deletes from a DynamoDB table. The API will run serverless, so there is no management of the underlying infrastructure and scaling is done automatically. 
 
-You will learn how easy it is to create an API on AWS, all within 45 minutes. 
+We will learn how easy it is to create an API on AWS, all within 45 minutes. 
 
 The workshop features the creation of the following resources: 
 
