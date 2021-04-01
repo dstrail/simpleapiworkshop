@@ -24,9 +24,9 @@ Connect to the portal by browsing to [https://dashboard.eventengine.run/](https:
 
 Enter the provided hash in the text box. The button on the bottom right corner changes to **Accept Terms & Login**. Click on that button to continue and autheniticate.
 
-Choose to Autheticate with OTP
+Choose to Authenticate with OTP
 ![Authentication](/images/sign-in-otp.png)
-Enter your email address and check your email for your On Time Password.
+Enter your email address and check your email for your One Time Password.
 After you have successfully authenticated you will see the **Event Dashboard**.
 
 ![Event Engine Dashboard](/images/event-dashboard.png)
