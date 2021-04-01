@@ -35,7 +35,7 @@ Next:
 1. Give a name to your instance
 
 ```bash 
-    api-workshop
+api-workshop
 ```
 2. Configure the options of your Cloud9 instance
 
