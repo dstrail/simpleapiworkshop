@@ -4,6 +4,10 @@ chapter: false
 weight: 40
 ---
 ![HTTP API gateway](/images/http-api-client.png)
+[**Amazon API Gateway**](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html) is a fully managed service that makes it easy for developers to publish, maintain, monitor, secure, and operate APIs at any scale. 
+
+With API Gateway, you can create RESTful APIs using either HTTP APIs or REST APIs. Together with AWS Lambda, API Gateway forms the app-facing part of the [**AWS serverless**](https://aws.amazon.com/serverless/) infrastructure.
+
 HTTP APIs enable you to create RESTful APIs with lower latency and lower cost than REST APIs.
 You can use HTTP APIs to send requests to AWS Lambda functions or to any publicly routable HTTP endpoint. 
 
