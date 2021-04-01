@@ -31,7 +31,7 @@ export INVOKE_URL="https://**abcdef123**.execute-api.eu-west-1.amazonaws.com"
 4. Create or update an item. The command includes a request body with the item's ID, price, and name. 
 
 ```bash
-    curl -v -X "PUT" -H "Content-Type: application/json" -d "{\"id\": \"abcdef234\", \"price\": 12345, \"name\": \"myitem\"}" $INVOKE_URL/items
+curl -v -X "PUT" -H "Content-Type: application/json" -d "{\"id\": \"abcdef234\", \"price\": 12345, \"name\": \"myitem\"}" $INVOKE_URL/items
 ```
 
 ## To get all items:
@@ -39,23 +39,23 @@ export INVOKE_URL="https://**abcdef123**.execute-api.eu-west-1.amazonaws.com"
 Use the following command to list all items.
 
 ```bash
-    curl -v $INVOKE_URL/items
+curl -v $INVOKE_URL/items
 ```
 
 ## To get an item:
 Use the following command to get an item by its ID.
 
 ```bash
-    curl -v $INVOKE_URL/items/abcdef234
+curl -v $INVOKE_URL/items/abcdef234
 ```
 
 ## To delete an item:
 
 Use the following command to delete an item.
 ```bash
-    curl -v -X "DELETE" $INVOKE_URL/items/abcdef234
+curl -v -X "DELETE" $INVOKE_URL/items/abcdef234
 ```
 Get all items to verify that the item was deleted.
 ```bash
-    curl -v $INVOKE_URL/items
+curl -v $INVOKE_URL/items
 ```
