@@ -7,7 +7,7 @@ weight: 80
 To make sure that your API is working, you use [**curl**](https://curl.se/), a command line tool and library for transferring data with URLs.
 
 ## To get the URL to invoke your API:
-1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
+1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway/](https://console.aws.amazon.com/apigateway)
 2. Choose your API.
 3. Note your API's invoke URL. It appears under Invoke URL on the Details page. 
 
@@ -19,7 +19,7 @@ The full URL looks like this: https://**abcdef123**.execute-api.eu-west-1.amazon
 
 ## To create or update an item:
 
-1. Connect to Cloud9 by browsing to [**Cloud9**](https://console.aws.amazon.com/cloud9)
+1. Connect to Cloud9 by browsing to [https://console.aws.amazon.com/cloud9/](https://console.aws.amazon.com/cloud9/)
 2. **Open the Cloud9 IDE** 
 3. In the following command replace "https://**abcdef123**.execute-api.eu-west-1.amazonaws.com" with your Invoke URL from the previous step to set a variable with the **Invoke URL**
 
