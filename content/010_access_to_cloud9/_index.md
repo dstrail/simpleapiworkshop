@@ -22,7 +22,7 @@ The following diagram shows a high-level overview of how AWS Cloud9 works.
 -   Clone a remote code repository—such as a repo in AWS CodeCommit—into your environment.
 -   Work with a combination of local and cloned files in the environment.
 
-...and today you will use it to deploy and test your API!
+...and today you use it to deploy and test your API!
 
 Connect to Cloud9 by browsing to [**Cloud9**](https://console.aws.amazon.com/cloud9) 
 
@@ -43,12 +43,13 @@ api-workshop
 
 3. Review the options and Create!
 
-After a few minutes...
+After a few minutes your Cloud 9 environment is created!
 
 ![** cloud9 logo will show up **](/images/creating-cloud-9.png)
 
-...your Cloud 9 environment is created!
-
+{{% notice note %}}
+The creation of the instance can take a little longer than the time-out on the page, a refresh of the page should provide access
+{{% /notice %}}
 
 There are a few more configuration steps then we can start:
 
