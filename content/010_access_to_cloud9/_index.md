@@ -22,7 +22,7 @@ The following diagram shows a high-level overview of how AWS Cloud9 works.
 -   Clone a remote code repository—such as a repo in AWS CodeCommit—into your environment.
 -   Work with a combination of local and cloned files in the environment.
 
-...and today you use it to deploy and test your API!
+...and today you use it to test your API!
 
 Connect to Cloud9 by browsing to [https://console.aws.amazon.com/cloud9/](https://console.aws.amazon.com/cloud9/) 
 
