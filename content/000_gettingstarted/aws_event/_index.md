@@ -26,7 +26,7 @@ Enter the provided hash in the text box. The button on the bottom right corner c
 
 Choose to Autheticate with OTP
 ![Authentication](/images/sign-in-otp.png)
-Enter your email address and check your email for your On Time Password.
+Enter your email address and check your email for your One Time Password.
 After you have successfully authenticated you will see the **Event Dashboard**.
 
 ![Event Engine Dashboard](/images/event-dashboard.png)
