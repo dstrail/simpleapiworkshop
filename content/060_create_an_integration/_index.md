@@ -8,7 +8,7 @@ weight: 60
 You create an [**integration**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-http.html) to connect a route to backend resources. At a later step you will attach these integrations to a route. For this example API, you create **one** Lambda integration that you use for all routes.
 
 ## Create an integration
-1. Sign in to the API Gateway console at https://console.aws.amazon.com/apigateway
+1. Sign in to the API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway)
 2. Choose your API (**http-crud-tutorial-api**)
 3. Choose **Integrations**
 4. Choose **Manage integrations** and then choose **Create**
