@@ -20,4 +20,4 @@ pygmentsStyle = "monokai"
   disableAssetsBusting = true
   disableLanguageSwitchingButton = false
   disableShortcutsTitle = true
-  disableInlineCopyToClipBoard = true
+  disableInlineCopyToClipBoard = false
