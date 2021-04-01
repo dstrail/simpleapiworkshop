@@ -12,10 +12,11 @@ To make sure that your API is working, you use [**curl**](https://curl.se/), a c
 3. Note your API's invoke URL. It appears under Invoke URL on the Details page. 
 
 ![After you create your API, the console shows your API's invoke URL.](/images/ddb-invoke-url.png)
-
+{{% notice note %}}
 The full URL looks like this: https://**abcdef123**.execute-api.eu-west-1.amazonaws.com
+{{% /notice %}}
 
-**Copy your API's invoke URL.**
+4. **Copy your API's invoke URL.**
 
 ## To create or update an item:
 
