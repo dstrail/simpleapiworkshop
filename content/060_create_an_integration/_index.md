@@ -5,7 +5,7 @@ weight: 60
 ---
 ![HTTP API gateway](/images/http-api-lambda.png)
 
-You create an [**integration**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-http.html) to connect a route to backend resources. For this example API, you create one Lambda integration that you use for all routes.
+You create an [**integration**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-http.html) to connect a route to backend resources. At a later step you will attach these integrations to a route. For this example API, you create **one** Lambda integration that you use for all routes.
 
 ## Create an integration
 1. Sign in to the API Gateway console at https://console.aws.amazon.com/apigateway

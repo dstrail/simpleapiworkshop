@@ -1,6 +1,6 @@
 ---
 title: "Build your first CRUD API in 45 minutes or less!"
-chapter: false
+chapter: True
 weight: 1
 ---
 
