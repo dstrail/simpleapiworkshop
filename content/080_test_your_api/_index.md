@@ -49,6 +49,14 @@ Use the following command to list all items.
 curl -s $INVOKE_URL/items | js-beautify 
 ```
 
+{{%expand "Challenge: can you find the entry in DynamoDB?" %}}
+1. Sign in to the DynamoDB console at [https://console.aws.amazon.com/DynamoDB/](https://console.aws.amazon.com/dynamodb)
+2. Select Tables in the left pane
+3. Select your table
+4. Select Items tab
+5. Confirm data from your PUT from previous step
+{{% /expand%}}
+
 ## To get an item:
 Use the following command to get an item by its ID.
 
