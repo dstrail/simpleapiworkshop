@@ -1,7 +1,7 @@
 +++
 title = "Access to Cloud9"
 chapter = false
-weight = 80
+weight = 70
 +++
 
 ## What is AWS Cloud9?
