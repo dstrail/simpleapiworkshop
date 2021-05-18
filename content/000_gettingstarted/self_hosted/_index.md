@@ -13,4 +13,4 @@ To use API Gateway and other AWS services, you need an AWS account. If you don't
 
 As a best practice, you should also create an AWS Identity and Access Management (IAM) user with administrator permissions and use that for all work that does not require root credentials. Create a password for console access, and access keys to use command line tools. See Creating your first IAM admin user and group in the IAM User Guide for instructions. 
 
-Once you have completed the step above, you can head straight to [**Create a DynamoDB table**](/020_createadynamodbtable/)
+Once you have completed the step above, you can head straight to [**Create a DynamoDB table**](/010_createadynamodbtable/)

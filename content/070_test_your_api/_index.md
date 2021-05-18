@@ -1,7 +1,7 @@
 ---
 title: "Test your API"
 chapter: false
-weight: 80
+weight: 70
 ---
 
 To make sure that your API is working, you use [**curl**](https://curl.se/), a command line tool and library for transferring data with URLs.
@@ -25,14 +25,20 @@ The full URL looks like this: https://**abcdef123**.execute-api.eu-west-1.amazon
 3. In the following command replace "https://**abcdef123**.execute-api.eu-west-1.amazonaws.com" with your Invoke URL from the previous step to set a variable with the **Invoke URL**
 
 ```bash
-#Replace URL
+#DO NOT COPY THIS!!!
+#Replace URL with the Invoke URL above
 export INVOKE_URL="https://**abcdef123**.execute-api.eu-west-1.amazonaws.com"
 ```
 
 4. Create or update an item. The command includes a request body with the item's ID, price, and name. 
 
 ```bash
-curl -v -X "PUT" -H "Content-Type: application/json" -d "{\"id\": \"abcdef234\", \"price\": 12345, \"name\": \"myitem\"}" $INVOKE_URL/items
+curl -X "PUT" -H "Content-Type: application/json" -d "{
+    \"id\": \"abcdef234\",
+    \"price\": 12345,
+    \"name\": \"myitem\"
+}" $INVOKE_URL/items
+
 ```
 
 ## To get all items:
@@ -40,23 +46,23 @@ curl -v -X "PUT" -H "Content-Type: application/json" -d "{\"id\": \"abcdef234\",
 Use the following command to list all items.
 
 ```bash
-curl -v $INVOKE_URL/items
+curl -s $INVOKE_URL/items | js-beautify 
 ```
 
 ## To get an item:
 Use the following command to get an item by its ID.
 
 ```bash
-curl -v $INVOKE_URL/items/abcdef234
+curl -s $INVOKE_URL/items/abcdef234 | js-beautify
 ```
 
 ## To delete an item:
 
 Use the following command to delete an item.
 ```bash
-curl -v -X "DELETE" $INVOKE_URL/items/abcdef234
+curl -X "DELETE" $INVOKE_URL/items/abcdef234
 ```
 Get all items to verify that the item was deleted.
 ```bash
-curl -v $INVOKE_URL/items
+curl -s $INVOKE_URL/items | js-beautify
 ```

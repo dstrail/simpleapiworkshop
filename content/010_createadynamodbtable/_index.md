@@ -1,7 +1,7 @@
 ---
 title: "Create a DynamoDB table"
 chapter: false
-weight: 20
+weight: 10
 ---
 
 
@@ -24,3 +24,4 @@ To **create a DynamoDB table**:
 ![dyanmodb create table](/images/dynamodb-create-table.png)
 
 After a few seconds your DynamoDB table becomes available. 
+

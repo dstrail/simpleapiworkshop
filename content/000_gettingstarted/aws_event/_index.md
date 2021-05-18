@@ -37,11 +37,21 @@ Click on **Set Team Name** and enter your name.
 Take note of the AWS region to use.
 Click on **Open AWS Console** on dashboard.
 
+
 ![Event Engine AWS Console](/images/open-console.png)
 
 Take the defaults and click on **Open AWS Console**. This will open AWS Console in a new browser tab.
 
+
+
 ![AWS Console](/images/console.png)
 The menu on the top right of your window will show which [AWS Region](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints) your are using. 
 
-Once you have completed the step above, you can head straight to [Create a DynamoDB table](/020_createadynamodbtable/)
+{{% notice warning %}}
+If you are already logged into a different AWS account you will be prompted to log out. Click the [here](https://signin.aws.amazon.com/oauth?Action=logout&redirect_uri=aws.amazon.com) link.
+
+![Already logged in](/images/logout-before-logging-in.png)
+Once logged out please close this page and go back to previous step.
+{{% /notice %}}
+
+Once you have completed the step above, you can head straight to [Create a DynamoDB table](/010_createadynamodbtable/)
