@@ -1,7 +1,7 @@
 ---
 title: "Create an integration"
 chapter: false
-weight: 60
+weight: 50
 ---
 ![HTTP API gateway](/images/http-api-lambda.png)
 

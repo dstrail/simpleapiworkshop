@@ -1,7 +1,7 @@
 ---
 title: "Attach your integration to routes"
 chapter: false
-weight: 70
+weight: 60
 ---
 
 ![HTTP API to DDB](/images/ddb-crud.png)

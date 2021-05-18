@@ -1,7 +1,7 @@
 ---
 title: "Create a lambda function"
 chapter: false
-weight: 30
+weight: 20
 ---
 ![Lambda to DynamoDB](/images/lambda-ddb-crud.png)
 [**AWS Lambda**](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)  is a compute service that lets you run code without provisioning or managing servers. Lambda runs your code only when needed and scales automatically, from a few requests per day to thousands per second. You create a Lambda function for the backend of your API. 
