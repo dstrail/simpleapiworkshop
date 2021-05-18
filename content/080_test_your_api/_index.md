@@ -41,7 +41,7 @@ curl -X "PUT" -H "Content-Type: application/json" -d "{
 
 ```
 
-{{%expand "**Challenge**: can you find the entry in DynamoDB?" %}}
+{{%expand "Challenge: can you find the entry in DynamoDB?" %}}
 1. Sign in to the DynamoDB console at [https://console.aws.amazon.com/DynamoDB/](https://console.aws.amazon.com/dynamodb)
 2. Select Tables in the left pane
 3. Select your table
@@ -56,6 +56,19 @@ Use the following command to list all items.
 ```bash
 curl -s $INVOKE_URL/items | js-beautify 
 ```
+{{%expand "Confirm ..." %}}
+```bash
+{
+    "Items": [{
+        "price": 12345,
+        "id": "abcdef234",
+        "name": "myitem"
+    }],
+    "Count": 1,
+    "ScannedCount": 1
+}
+```
+{{% /expand%}}
 
 ## To get an item:
 Use the following command to get an item by its ID.
@@ -63,6 +76,17 @@ Use the following command to get an item by its ID.
 ```bash
 curl -s $INVOKE_URL/items/abcdef234 | js-beautify
 ```
+{{%expand "Confirm ..." %}}
+```bash
+{
+    "Item": {
+        "price": 12345,
+        "id": "abcdef234",
+        "name": "myitem"
+    }
+}
+```
+{{% /expand%}}
 
 ## To delete an item:
 
@@ -70,7 +94,20 @@ Use the following command to delete an item.
 ```bash
 curl -X "DELETE" $INVOKE_URL/items/abcdef234
 ```
+{{%expand "Confirm ..." %}}
+"Deleted item abcdef234"
+{{% /expand%}}
+
 Get all items to verify that the item was deleted.
 ```bash
 curl -s $INVOKE_URL/items | js-beautify
 ```
+{{%expand "Confirm ..." %}}
+```bash
+{
+    "Items": [],
+    "Count": 0,
+    "ScannedCount": 0
+}
+```
+{{% /expand%}}
