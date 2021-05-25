@@ -2,6 +2,7 @@
 title: "Clean UP!"
 chapter: false
 weight: 90
+pre: "<b>9. </b>"
 ---
 
 To prevent unnecessary costs, delete the resources that you created as part of this getting started exercise. The following steps delete your HTTP API, your Lambda function, and associated resources.

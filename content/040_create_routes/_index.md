@@ -2,6 +2,7 @@
 title: "Create routes"
 chapter: false
 weight: 40
+pre: "<b>4. </b>"
 ---
 ![HTTP API gateway](/images/http-api-lambda.png)
 

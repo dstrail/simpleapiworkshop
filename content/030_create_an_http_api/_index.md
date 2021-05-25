@@ -2,6 +2,7 @@
 title: "Create an http API"
 chapter: false
 weight: 30
+pre: "<b>3. </b>"
 ---
 ![HTTP API gateway](/images/http-api-client.png)
 [**Amazon API Gateway**](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html) is a fully managed service that makes it easy for developers to publish, maintain, monitor, secure, and operate APIs at any scale. 

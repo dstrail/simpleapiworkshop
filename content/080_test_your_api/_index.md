@@ -2,6 +2,7 @@
 title: "Test your API"
 chapter: false
 weight: 80
+pre: "<b>8. </b>"
 ---
 
 To make sure that your API is working, you use [**curl**](https://curl.se/), a command line tool and library for transferring data with URLs.
