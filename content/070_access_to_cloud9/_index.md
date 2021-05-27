@@ -2,6 +2,7 @@
 title = "Access to Cloud9"
 chapter = false
 weight = 70
+pre = "<b>7. </b>"
 +++
 
 ## What is AWS Cloud9?

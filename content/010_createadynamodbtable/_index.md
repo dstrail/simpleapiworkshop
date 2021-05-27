@@ -2,6 +2,7 @@
 title: "Create a DynamoDB table"
 chapter: false
 weight: 10
+pre: "<b>1. </b>"
 ---
 
 

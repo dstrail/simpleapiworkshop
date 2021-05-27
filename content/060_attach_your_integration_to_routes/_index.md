@@ -2,11 +2,14 @@
 title: "Attach your integration to routes"
 chapter: false
 weight: 60
+pre: "<b>6. </b>"
 ---
 
 ![HTTP API to DDB](/images/ddb-crud.png)
 
-For this example API, you use the same [**AWS Lambda integration**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html) for all routes. After you attach the integration to all of the API's routes, your Lambda function is invoked when a client calls any of your routes.
+For this example API, you use the same [**AWS Lambda integration**](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html) for all routes, so in essence a monolithic application. Monoliths work well for the simplest serverless applications that perform single-purpose functions. As those applications evolve into workflows or develop new features, it becomes important to refactor the code into smaller services as described in: [Best practices for organizing larger serverless applications](https://aws.amazon.com/blogs/compute/best-practices-for-organizing-larger-serverless-applications/)
+
+ After you attach the integration to all of the API's routes, your Lambda function is invoked when a client calls any of your routes.
 
 ## To attach integrations to routes
 

@@ -9,3 +9,4 @@ In this workshop you will create an API that creates, reads updates and deletes 
 You will learn how easy it is to create an API on AWS, all within 45 minutes. 
 
 The workshop features the creation of a DynamoDB table, HTTP API Gateway, Lambda function, and an AWS Cloud9 IDE.
+
