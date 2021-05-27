@@ -104,6 +104,7 @@ exports.handler = async (event, context) => {
 };
 
 ```
+
 14. Choose **Deploy** to update your function. 
 
 ![** lambda Code Editor **](/images/lambda-code-editor.png)

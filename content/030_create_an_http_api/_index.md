@@ -1,5 +1,5 @@
 ---
-title: "Create an http API"
+title: "Create an HTTP API"
 chapter: false
 weight: 30
 pre: "<b>3. </b>"

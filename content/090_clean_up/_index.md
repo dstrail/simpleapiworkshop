@@ -46,7 +46,7 @@ If this is an event organized by AWS, you don't need to follow the steps below. 
 3. Choose Delete role.
 4. Choose Yes, delete.
 
-## To delete the Coud9 IDE:
+## To delete the Cloud9 IDE:
 
 1. Sign in to the Cloud9 console at [https://console.aws.amazon.com/cloud9/](https://console.aws.amazon.com/cloud9/)
 2. In the Your environments page, an IDE. Choose Delete.
