@@ -35,6 +35,7 @@ This workshop uses a managed policy for simplicity. As a best practice, you shou
 12. **Open index.js**, and replace its contents with the following code. 
 
 ```bash
+
 const AWS = require("aws-sdk");
 
 const dynamo = new AWS.DynamoDB.DocumentClient();
